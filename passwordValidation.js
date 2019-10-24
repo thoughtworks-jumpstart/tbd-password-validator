@@ -1,1 +1,3 @@
-module.exports.passwordValidation = () => {};
+module.exports.passwordValidation = password => {
+  return password.length >= 8;
+};
