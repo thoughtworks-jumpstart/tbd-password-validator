@@ -1,3 +1,9 @@
 module.exports.passwordValidation = password => {
-  return password.length >= 8;
+	if (password.length >= 8) {
+		const passwordArray = password.split("");
+		return passwordArray.some(item => {
+			return item === item.toLowerCase();
+        });
+    }
+    return false;
 };
