@@ -1,0 +1,14 @@
+{
+  "name": "tbd-password-validator",
+  "version": "1.0.0",
+  "main": "passwordValidation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
