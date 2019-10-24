@@ -4,7 +4,7 @@
   "main": "passwordValidation.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch passwordValidation.test.js"
+    "test:watch": "jest --watchAll"
   },
   "author": "",
   "license": "ISC",
